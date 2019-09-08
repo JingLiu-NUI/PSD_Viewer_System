@@ -1,0 +1,131 @@
+.preview
+  display : flex
+  flex-direction:row
+  overflow-y: hidden
+  background: #303030
+  width :900px
+  height :600px
+.preview--container
+  position: absolute
+  margin-left :260px
+  margin-top :100px
+.preview--layers
+  position: absolute
+  overflow: hidden
+  width: 100%
+  height: 100%
+.preview .layer
+  position: absolute
+.preview .highlight
+  position: absolute
+  background: rgba(steelblue, .3)
+  outline: solid thin steelblue
+  z-index: 10
+.preview .highlight--coords
+  position: absolute
+  transform: translateY(-100%);
+  left: -1px;
+  z-index: 10
+  padding: 5px 12px;
+  font-size: .7rem;
+  color: white;
+  background: rgba(steelblue);
+  white-space: nowrap
+.toolbar
+  position:absolute
+  top:50px
+  width :120px
+  height :230px
+  background: dimgrey
+  padding: 2px;
+  display: inline-flex;
+  flex-flow: column wrap;
+.preview .toolbarleft
+  width:50px
+  height:200px
+  float:left
+.preview .toolbarright
+  width :50px
+  height :200px
+  float :right
+.preview .toolbtn
+  width:50px
+  height:50px
+  border-radius: 3px;
+  margin: 2px 3px 1px 3px;
+  padding: 4px 4px;
+#typeTable
+  position :absolute
+  background :grey
+  left :670px
+  top :0px
+  width :230px
+  height :400px
+  display :none
+.fontSettingConfirm
+  position :absolute
+  left:80px
+  top:400
+#rotateTable
+  position: absolute
+  background:grey
+  width :230px
+  height :300px
+  left :670px
+  top :0px
+  display :none
+#btnleft
+  width :100px
+  height :30px
+#btnright
+  width :100px
+  height :30px
+#btnup
+  width :100px
+  height :30px
+#btndown
+  width :100px
+  height :30px
+#paintTable
+  position :absolute
+  background :grey
+  left :670px
+  top :0px
+  width :230px
+  height :400px
+  display :none
+#shapeList
+  position:absolute
+  background :#474747
+  width: 200px
+  height:210px
+  margin-left:60px
+  margin-top:-50px
+  display :none
+  z-index :1
+#shapeTable
+  position:absolute
+  background :grey
+  left :670px
+  top :0px
+  width :230px
+  height :400px
+  display :none
+.li
+  width: 180px
+  height: 40px
+.shapeli
+  background-color: rgba(0,0,0,0);
+  height: 20px
+  width: 160px
+  border-width: 0px
+  font-size: 18px
+  color: #d5d5d5
+#cropBox
+  position :absolute
+  background-color #474747;
+  width:230px
+  height:230px
+  left:670px
+  top:0px
+  display :none
