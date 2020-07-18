@@ -60,7 +60,7 @@
     "jsdoc": "^3.3.0-beta1",
     "jshint": "^2.6.3",
     "json-loader": "^0.5.1",
-    "lodash": "^3.3.1",
+    "lodash": "^4.17.19",
     "mocha": "^2.1.0",
     "nib": "^1.1.0",
     "rimraf": "^2.3.1",
